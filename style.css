@@ -1,0 +1,151 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+
+}
+
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header {
+    margin: auto;
+  width: 100%;
+  background-image: url('img/concepto-de-viaje-con-puntos-de-referencia-en-todo-el-mundo.jpg');
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+}
+
+.barranav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  
+}
+
+.titulo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.titulo p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  
+}
+
+
+
+.nav-links a:hover {
+  text-decoration: underline; /* Subraya al pasar el mouse */
+}
+ 
+
+.conte{
+  display: flex;
+}
+
+.col-1{ 
+  width: 33.3%;
+  
+}
+
+.col-2{
+  width: 33.3%;
+  
+}
+
+.col-3{
+  width:
+   33.3%;
+  
+}
+
+
+.col-3 article img{
+  width: 100%;
+}
+
+.col-3 article {
+  text-align: center;
+  margin:25px;
+    border: 2px solid black;
+  border-radius: 10px;
+}
+
+.col-1 article img{
+  width: 100%;
+  height: 200px;
+     border: 2px solid black;
+  border-radius: 10px;
+}
+.col-1 article {
+  text-align: center;
+  margin: 25px;
+    border: 2px solid black;
+  border-radius: 10px;
+}
+
+
+
+
+.col-2 article img{
+  width: 100%;
+  height: 200px;
+  
+}
+
+.col-2 article {
+  text-align: center;
+  margin: 25px; 
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+
+.col-1 article img:hover,
+.col-2 article img:hover,
+.col-3 article img:hover {
+  transform: scale(0.99.); /* Reduce la imagen al 95% */
+  opacity: 0.8; /* Hace que sea un poco transparente */
+}
+
+
+
+
+.foo {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+} 
+
+.contenedor-icon {
+    text-align: center;
+    margin-top: 20px;
+    height: 80px;
+}
+
+.contenedor-icon button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
